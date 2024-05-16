@@ -481,7 +481,7 @@ public class Launcher extends javax.swing.JFrame {
     ShowPanel(p1);
  
     
-    ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton6.png");
+    ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton7.png");
     Image originalImage = originalIcon.getImage();
 
     int newWidth = 100;
@@ -490,7 +490,7 @@ public class Launcher extends javax.swing.JFrame {
     Image scaledImage = originalImage.getScaledInstance(newWidth, newHeight, Image.SCALE_SMOOTH);
 
     ImageIcon scaledIcon = new ImageIcon(scaledImage);
-    img7.setIcon(scaledIcon);
+    img8.setIcon(scaledIcon);
     }//GEN-LAST:event_img8MousePressed
 
     private void img8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img8MouseReleased
