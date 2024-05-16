@@ -21,7 +21,7 @@ import org.json.JSONObject;
  * @author Juan Antonio
  */
 public class Home extends javax.swing.JPanel {
-
+    int indicesGrado= 0;
     /**
      * Creates new form Home
      */
@@ -201,10 +201,13 @@ public class Home extends javax.swing.JPanel {
         // Convierte el String a un objeto JSON
                JSONObject jsonObject = new JSONObject(obj); 
             JSONArray grados = jsonObject.getJSONArray("grados");
-             JSONObject grado = grados.getJSONObject(0);
+            
+            //obtengo el grado
+            JSONObject grado = grados.getJSONObject(indicesGrado);
+        
+        // Obtengo el nombre del grado
         String nombreGrado = grado.getString("nombre");
-      
-        //System.out.println("Lee " + jsonObject);
+        System.out.println("Nombre del grado: " + nombreGrado);
           JSONArray juegos = grado.getJSONArray("juegos");
 
            JSONObject juego = juegos.getJSONObject(0);
@@ -228,17 +231,19 @@ public class Home extends javax.swing.JPanel {
     }
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
  
-        
-     try {
+         try {
            String obj = new String(Files.readAllBytes(Paths.get("C:\\Users\\Juan Antonio\\Downloads\\BaseDeDatos.json")));
-
+                
         // Convierte el String a un objeto JSON
                JSONObject jsonObject = new JSONObject(obj); 
             JSONArray grados = jsonObject.getJSONArray("grados");
-             JSONObject grado = grados.getJSONObject(0);
+            
+            //obtengo el grado
+            JSONObject grado = grados.getJSONObject(indicesGrado);
+        
+        // Obtengo el nombre del grado
         String nombreGrado = grado.getString("nombre");
-      
-        //System.out.println("Lee " + jsonObject);
+        System.out.println("Nombre del grado: " + nombreGrado);
           JSONArray juegos = grado.getJSONArray("juegos");
 
            JSONObject juego = juegos.getJSONObject(1);
@@ -246,13 +251,19 @@ public class Home extends javax.swing.JPanel {
 
         // Obtén el título y la descripción del primer juego
         String titulo = juego.getString("titulo");
+                   System.out.println(titulo);
         String descripcion = juego.getString("descripcion");
-        String imagen= juego.getString("imagen");
+                   System.out.println(descripcion);
+                 
+             String imagen= juego.getString("imagen");
            Game p2= new Game(titulo,descripcion,imagen);
                ShowPanel(p2);
+     
          } catch (Exception e) {
         e.printStackTrace();
-    }
+    
+    
+    }                                    
   
     }//GEN-LAST:event_jLabel2MouseClicked
 
@@ -279,10 +290,14 @@ public class Home extends javax.swing.JPanel {
 
         // Convierte el String a un objeto JSON
                JSONObject jsonObject = new JSONObject(obj); 
-            JSONArray grados = jsonObject.getJSONArray("grados");
-             JSONObject grado = grados.getJSONObject(0);
+               JSONArray grados = jsonObject.getJSONArray("grados");
+            
+            //obtengo el grado
+            JSONObject grado = grados.getJSONObject(indicesGrado);
+        
+        // Obtengo el nombre del grado
         String nombreGrado = grado.getString("nombre");
-      
+        System.out.println("Nombre del grado: " + nombreGrado);
         //System.out.println("Lee " + jsonObject);
           JSONArray juegos = grado.getJSONArray("juegos");
 
@@ -307,11 +322,14 @@ public class Home extends javax.swing.JPanel {
 
         // Convierte el String a un objeto JSON
                JSONObject jsonObject = new JSONObject(obj); 
-            JSONArray grados = jsonObject.getJSONArray("grados");
-             JSONObject grado = grados.getJSONObject(0);
+               JSONArray grados = jsonObject.getJSONArray("grados");
+            
+            //obtengo el grado
+            JSONObject grado = grados.getJSONObject(indicesGrado);
+        
+        // Obtengo el nombre del grado
         String nombreGrado = grado.getString("nombre");
-      
-        //System.out.println("Lee " + jsonObject);
+        System.out.println("Nombre del grado: " + nombreGrado);
           JSONArray juegos = grado.getJSONArray("juegos");
 
            JSONObject juego = juegos.getJSONObject(3);
@@ -335,11 +353,14 @@ public class Home extends javax.swing.JPanel {
 
         // Convierte el String a un objeto JSON
                JSONObject jsonObject = new JSONObject(obj); 
-            JSONArray grados = jsonObject.getJSONArray("grados");
-             JSONObject grado = grados.getJSONObject(0);
+               JSONArray grados = jsonObject.getJSONArray("grados");
+            
+            //obtengo el grado
+            JSONObject grado = grados.getJSONObject(indicesGrado);
+        
+        // Obtengo el nombre del grado
         String nombreGrado = grado.getString("nombre");
-      
-        //System.out.println("Lee " + jsonObject);
+        System.out.println("Nombre del grado: " + nombreGrado);
           JSONArray juegos = grado.getJSONArray("juegos");
 
            JSONObject juego = juegos.getJSONObject(4);
@@ -364,10 +385,14 @@ public class Home extends javax.swing.JPanel {
 
         // Convierte el String a un objeto JSON
                JSONObject jsonObject = new JSONObject(obj); 
-            JSONArray grados = jsonObject.getJSONArray("grados");
-             JSONObject grado = grados.getJSONObject(0);
+             JSONArray grados = jsonObject.getJSONArray("grados");
+            
+            //obtengo el grado
+            JSONObject grado = grados.getJSONObject(indicesGrado);
+        
+        // Obtengo el nombre del grado
         String nombreGrado = grado.getString("nombre");
-      
+        System.out.println("Nombre del grado: " + nombreGrado);
         //System.out.println("Lee " + jsonObject);
           JSONArray juegos = grado.getJSONArray("juegos");
 

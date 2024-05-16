@@ -16,6 +16,7 @@ import org.json.JSONObject;
  * @author Juan Antonio
  */
 public class JSON {
+    public int indicesGrado= 0;
       public static void main(String[] args) {
        
         try {

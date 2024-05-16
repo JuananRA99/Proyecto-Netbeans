@@ -267,7 +267,7 @@ public class Launcher extends javax.swing.JFrame {
         Home p1 = new Home();
     ShowPanel(p1);
  
-    
+    p1.indicesGrado=0;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton0.png");
     Image originalImage = originalIcon.getImage();
 
@@ -297,7 +297,7 @@ public class Launcher extends javax.swing.JFrame {
      Home p1 = new Home();
     ShowPanel(p1);
  
-    
+    p1.indicesGrado=1;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton1.png");
     Image originalImage = originalIcon.getImage();
 
@@ -328,7 +328,7 @@ public class Launcher extends javax.swing.JFrame {
       Home p1 = new Home();
     ShowPanel(p1);
  
-    
+    p1.indicesGrado=2;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton2.png");
     Image originalImage = originalIcon.getImage();
 
@@ -358,7 +358,7 @@ public class Launcher extends javax.swing.JFrame {
     private void img4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img4MousePressed
      Home p1 = new Home();
     ShowPanel(p1);
- 
+ p1.indicesGrado=3;
     
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton3.png");
     Image originalImage = originalIcon.getImage();
@@ -389,7 +389,7 @@ public class Launcher extends javax.swing.JFrame {
     private void img5MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img5MousePressed
       Home p1 = new Home();
     ShowPanel(p1);
- 
+    p1.indicesGrado=4;
     
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton4.png");
     Image originalImage = originalIcon.getImage();
@@ -420,7 +420,7 @@ public class Launcher extends javax.swing.JFrame {
     Home p1 = new Home();
     ShowPanel(p1);
  
-    
+     p1.indicesGrado=5;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton5.png");
     Image originalImage = originalIcon.getImage();
 
@@ -450,7 +450,7 @@ public class Launcher extends javax.swing.JFrame {
           Home p1 = new Home();
     ShowPanel(p1);
  
-    
+      p1.indicesGrado=6;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton6.png");
     Image originalImage = originalIcon.getImage();
 
@@ -480,7 +480,7 @@ public class Launcher extends javax.swing.JFrame {
   Home p1 = new Home();
     ShowPanel(p1);
  
-    
+      p1.indicesGrado=7;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton7.png");
     Image originalImage = originalIcon.getImage();
 
@@ -510,7 +510,7 @@ public class Launcher extends javax.swing.JFrame {
        Home p1 = new Home();
     ShowPanel(p1);
  
-    
+      p1.indicesGrado=8;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton8.png");
     Image originalImage = originalIcon.getImage();
 
@@ -539,7 +539,7 @@ public class Launcher extends javax.swing.JFrame {
     private void img10MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img10MousePressed
     Home p1 = new Home();
     ShowPanel(p1);
- 
+   p1.indicesGrado=9;
     
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton9.png");
     Image originalImage = originalIcon.getImage();
@@ -570,7 +570,7 @@ public class Launcher extends javax.swing.JFrame {
       Home p1 = new Home();
     ShowPanel(p1);
  
-    
+      p1.indicesGrado=10;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton10.png");
     Image originalImage = originalIcon.getImage();
 
@@ -599,7 +599,7 @@ public class Launcher extends javax.swing.JFrame {
     private void img12MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img12MousePressed
       Home p1 = new Home();
     ShowPanel(p1);
- 
+   p1.indicesGrado=11;
     
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton11.png");
     Image originalImage = originalIcon.getImage();
@@ -630,7 +630,7 @@ public class Launcher extends javax.swing.JFrame {
       Home p1 = new Home();
     ShowPanel(p1);
  
-    
+      p1.indicesGrado=12;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton12.png");
     Image originalImage = originalIcon.getImage();
 
@@ -660,7 +660,7 @@ public class Launcher extends javax.swing.JFrame {
       Home p1 = new Home();
     ShowPanel(p1);
  
-    
+      p1.indicesGrado=13;
     ImageIcon originalIcon = new ImageIcon("src/imagenes/LauncherButton13.png");
     Image originalImage = originalIcon.getImage();
 
